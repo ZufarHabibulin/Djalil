@@ -1,0 +1,13 @@
+{
+  "name": "Djalil",
+  "birth_date": "2017-06-17",
+  "school": {
+    "type": "private",
+    "hours": "09:00-15:00",
+    "performance": "excellent"
+  },
+  "vision": {
+    "right_eye": -1.0,
+    "left_eye": -1.0
+  }
+}
