@@ -1,13 +1,53 @@
 {
-  "name": "Djalil",
-  "birth_date": "2017-06-17",
-  "school": {
-    "type": "private",
-    "hours": "09:00-15:00",
-    "performance": "excellent"
+  "schema_version": "2.0",
+  "subject": {
+    "name": "Djalil",
+    "birth_date": "2017-06-17",
+    "grade": 1
   },
-  "vision": {
-    "right_eye": -1.0,
-    "left_eye": -1.0
+  "context": {
+    "country": "UZ",
+    "school": {
+      "type": "private",
+      "hours": "09:00-15:00",
+      "academic_level": "excellent",
+      "class_level": "weak"
+    },
+    "languages": {
+      "reading_ru_wpm": 80,
+      "english_level": "beginner",
+      "notes": "Dislikes English and Uzbek; understands basic reading but struggles to express ideas."
+    }
+  },
+  "health": {
+    "vision": {
+      "right_eye_diopters": -1.0,
+      "left_eye_diopters": -1.0,
+      "last_check_date": "2026-02-28",
+      "symptoms": {
+        "morning_complaints": true,
+        "notes": "Sometimes complains in the morning."
+      }
+    }
+  },
+  "lifestyle_baseline": {
+    "outdoor_time_hours_per_day": "1-2",
+    "screen_time_pattern": "15-min sessions",
+    "reading_hours_per_day": 2,
+    "sports": {
+      "past": ["swimming", "wrestling"],
+      "current": []
+    }
+  },
+  "goals": {
+    "top_goals_90_days": [
+      "Stabilize vision habits (outdoor, breaks, near-work hygiene).",
+      "Build weekly physical activity routine.",
+      "Improve English confidence via gamified micro-lessons."
+    ]
+  },
+  "tracking_rules": {
+    "privacy": "public_repo_no_sensitive_data",
+    "data_update_frequency": "weekly_minimum"
   }
 }
